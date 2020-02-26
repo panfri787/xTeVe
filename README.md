@@ -1,3 +1,13 @@
+Repository forked of original [xTeVe-project](https://github.com/xteve-project/xTeVe) with the purpose of create a generic Dockerfile which everyone could be use at any OS architecture, instead the original binarys which are distributed officially.
+
+The Dockerfile, exposes the default xTeVe port (34400) which must be mapped at any port into host machine. The image is built with the ffmpeg and vlc packages installed into.
+
+It's possible to bind any directory of host machine into container to setup easily the m3u files, store backups. 
+
+
+---
+
+
 <div align="center" style="background-color: #111; padding: 100;">
     <a href="https://github.com/xteve-project/xTeVe"><img width="880" height="200" src="html/img/logo_b_880x200.jpg" alt="xTeVe" /></a>
 </div>
